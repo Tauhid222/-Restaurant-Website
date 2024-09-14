@@ -1,0 +1,39 @@
+
+
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.nav-menu li{
+margin: 0px 20px;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.Mobile-nav-menu{
+    list-style: none;
+    
+
+}
+.Mobile-nav-menu li{
+    margin-top:20px ;
+    padding: 10px;
+}
+.Mobile-nav-menu li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.Mobile-nav-menu li:hover{
+   
+    border-radius: 10px;
+   background-color: cadetblue;
+   transition: 0.5s ease-in;
+    
+}
